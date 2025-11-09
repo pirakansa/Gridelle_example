@@ -1,0 +1,32 @@
+- name: バックログ
+  rows:
+    - feature: https://github.com/openai/codex
+      owner: Alice
+      status: READY
+      effort: '3'
+    - feature: ''
+      owner: ''
+      status: ''
+      effort: '668'
+    - feature: CSVインポート
+      owner: Carol
+      status: BACKLOG
+      effort: '662'
+    - feature: 権限管理
+      owner: Dave
+      status: DOING
+      effort: '53'
+    - feature: 操作ガイド作成
+      owner: Eve
+      status: DONE
+      effort: '5'
+- name: 完了済み
+  rows:
+    - feature: リリースノート作成
+      owner: Fiona
+      status: DONE
+      effort: '2'
+    - feature: QAレビュー
+      owner: George
+      status: DONE
+      effort: '4'
