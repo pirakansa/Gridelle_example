@@ -7,7 +7,7 @@
     - feature: ''
       owner: ''
       status: ''
-      effort: '668'
+      effort: '68'
     - feature: CSVインポート
       owner: Carol
       status: BACKLOG
