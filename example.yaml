@@ -4,7 +4,9 @@
       owner: Alice
       status: READY
       effort: '3'
-    - feature: ''
+    - feature:
+        value: ''
+        bgColor: '#fee2e2'
       owner: ８８
       status: ''
       effort: '668'
@@ -14,8 +16,12 @@
 
         ポート
       owner: Carol
-      status: BACKLOG
-      effort: '662'
+      status:
+        value: BACKLOG
+        color: '#7c3aed'
+      effort:
+        value: '662'
+        color: '#7c3aed'
     - feature: 権限管理
       owner: Dave
       status: DOING
