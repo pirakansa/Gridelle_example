@@ -1,14 +1,18 @@
 - name: バックログ
   rows:
-    - feature: https://github.com/openai/codex
+    - feature: てす
       owner: Alice
       status: READY
       effort: '3'
     - feature: ''
-      owner: ''
+      owner: ８８
       status: ''
       effort: '668'
-    - feature: CSVインポート
+    - feature: |-
+        CSVイン
+
+
+        ポート
       owner: Carol
       status: BACKLOG
       effort: '662'
