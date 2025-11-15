@@ -23,5 +23,6 @@ repositories:
     url: https://example.com/
     files:
       -
-        file_name: index2.html
+        file_name: index.html
+        rename: index2.html
         out_dir: ./photos
