@@ -18,3 +18,10 @@ repositories:
       -
         file_name: 100.webp
         out_dir: ./photos
+  -
+    _comment: page
+    url: https://example.com/
+    files:
+      -
+        file_name: index.html
+        out_dir: ./photos
