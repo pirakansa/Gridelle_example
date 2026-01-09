@@ -6,20 +6,40 @@
       image_url: https://raw.githubusercontent.com/pirakansa/sandbox-pages/refs/heads/main/src/assets/logo.jpeg
       repo_url: https://github.com/pirakansa/sandbox-pages
       badges: nodejs, react, vite, sandbox, wasm, octkit
-      updated_at: '2025-11-16'
+      updated_at: '2026-01-09'
 
     - name: Gridelle
       description: Gridelle is an application that lets you view and edit YAML workbooks through a spreadsheet-like UI.
       badges: wasm, react, vite, yaml, nodejs, spreadsheet
       repo_url: https://github.com/pirakansa/Gridelle
       image_url: https://raw.githubusercontent.com/pirakansa/Gridelle/refs/heads/main/src/assets/logo.jpg
-      updated_at: '2025-11-29'
+      updated_at: '2026-01-09'
 
     - name: ppkgmgr
       description: private-package-manager is a package management tool built with Go.
       repo_url: https://github.com/pirakansa/ppkgmgr
       badges: ppkgmgr, golang, cli
-      updated_at: '2025-11-16'
+      updated_at: '2026-01-09'
+
+    - name: shiki
+      description: systemd サービスの起動順序を HTTP ベースで連携させる軽量ツール。
+      image_url: https://raw.githubusercontent.com/pirakansa/shiki/refs/heads/main/docs/shiki-logo.png
+      repo_url: https://github.com/pirakansa/shiki
+      badges: shiki, rust, cli, systemd, orchestrator
+      updated_at: '2026-01-02'
+
+    - name: moribito
+      description: GitHub App と OpenCode の連携ツール。
+      image_url: https://raw.githubusercontent.com/pirakansa/moribito/refs/heads/main/docs/moribito-logo.png
+      repo_url: https://github.com/pirakansa/moribito
+      badges: moribito, golang, github, opencode
+      updated_at: '2025-12-30'
+
+    - name: repo-contract
+      description: Agent.mdで定めるルールを、コードによる決まりごとにするツール。
+      repo_url: https://github.com/pirakansa/RepoContract
+      badges: RepoContract, rust, cli, ai, ci, contract
+      updated_at: '2025-12-30'
 
     - name: rusteth
       description: >-
@@ -86,6 +106,12 @@
       image_url: https://raw.githubusercontent.com/bigskysoftware/htmx/master/www/static/img/htmx_logo.1.png
       repo_url: https://github.com/bigskysoftware/htmx
 
+    - name: OpenCode
+      description: The open source AI coding agent.
+      badges: opencode, cli, ai
+      repo_url: https://github.com/anomalyco/opencode
+      updated_at: '2026-01-09'
+
   meta:
     rowKey: items
 
@@ -97,6 +123,12 @@
       repo_url: https://github.com/MonitorControl/MonitorControl
       image_url: https://raw.githubusercontent.com/MonitorControl/MonitorControl/main/.github/Icon-cropped.png
       updated_at: '2025-11-16'
+
+    - name: devcontainers-cli
+      description: vscode devcontainers コマンドラインツール
+      badges: devcontainers, cli, vscode
+      repo_url: https://github.com/devcontainers/cli
+      updated_at: '2026-01-09'
 
     - name: localstack
       description: 完全に機能するローカルAWSクラウドスタック
