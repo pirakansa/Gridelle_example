@@ -28,13 +28,6 @@
       badges: shiki, rust, cli, systemd, orchestrator
       updated_at: '2026-01-02'
 
-    - name: moribito
-      description: GitHub App と OpenCode の連携ツール。
-      image_url: https://raw.githubusercontent.com/pirakansa/moribito/refs/heads/main/docs/moribito-logo.png
-      repo_url: https://github.com/pirakansa/moribito
-      badges: moribito, golang, github, opencode
-      updated_at: '2025-12-30'
-
     - name: repo-contract
       description: Agent.mdで定めるルールを、コードによる決まりごとにするツール。
       repo_url: https://github.com/pirakansa/RepoContract
