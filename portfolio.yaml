@@ -15,11 +15,11 @@
       image_url: https://raw.githubusercontent.com/pirakansa/Gridelle/refs/heads/main/src/assets/logo.jpg
       updated_at: '2026-01-09'
 
-    - name: ppkgmgr
-      description: private-package-manager is a package management tool built with Go.
-      repo_url: https://github.com/pirakansa/ppkgmgr
-      badges: ppkgmgr, golang, cli
-      updated_at: '2026-01-09'
+    - name: Vorbere
+      description: Manifest-driven file sync and task runner for reproducible development workflows.
+      repo_url: https://github.com/pirakansa/Vorbere
+      badges: vorbere, task, cli
+      updated_at: '2026-03-03'
 
     - name: shiki
       description: systemd サービスの起動順序を HTTP ベースで連携させる軽量ツール。
