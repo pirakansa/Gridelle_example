@@ -1,0 +1,150 @@
+- name: My Repositories
+  items:
+
+    - name: sandbox-pages
+      description: react + vite 構成の遊び場です。GitHub Flowで運用します。
+      image_url: https://raw.githubusercontent.com/pirakansa/sandbox-pages/refs/heads/main/src/assets/logo.jpeg
+      repo_url: https://github.com/pirakansa/sandbox-pages
+      badges: nodejs, react, vite, sandbox, wasm, octkit
+      updated_at: '2026-01-09'
+
+    - name: Gridelle
+      description: Gridelle is an application that lets you view and edit YAML workbooks through a spreadsheet-like UI.
+      badges: wasm, react, vite, yaml, nodejs, spreadsheet
+      repo_url: https://github.com/pirakansa/Gridelle
+      image_url: https://raw.githubusercontent.com/pirakansa/Gridelle/refs/heads/main/src/assets/logo.jpg
+      updated_at: '2026-01-09'
+
+    - name: Vorbere
+      description: Manifest-driven file sync and task runner for reproducible development workflows.
+      repo_url: https://github.com/pirakansa/Vorbere
+      image_url: https://raw.githubusercontent.com/pirakansa/Vorbere/refs/heads/main/docs/vorbere.jpg
+      badges: vorbere, task, cli
+      updated_at: '2026-03-03'
+
+    - name: shiki
+      description: systemd サービスの起動順序を HTTP ベースで連携させる軽量ツール。
+      image_url: https://raw.githubusercontent.com/pirakansa/shiki/refs/heads/main/docs/shiki-logo.png
+      repo_url: https://github.com/pirakansa/shiki
+      badges: shiki, rust, cli, systemd, orchestrator
+      updated_at: '2026-01-02'
+
+    - name: repo-contract
+      description: Agent.mdで定めるルールを、コードによる決まりごとにするツール。
+      repo_url: https://github.com/pirakansa/RepoContract
+      badges: RepoContract, rust, cli, ai, ci, contract
+      updated_at: '2025-12-30'
+
+    - name: rusteth
+      description: >-
+        rusteth is a Rust-native network management CLI that unifies distribution-specific tooling under a single,
+        dependency-free binary.
+      repo_url: https://github.com/pirakansa/rusteth
+      badges: rust, cli, network
+      updated_at: '2025-11-22'
+
+    - name: node-file-encrypt
+      description: file-encrypt with nodejs
+      repo_url: https://github.com/pirakansa/node-file-encrypt
+      badges: nodejs, cli, encryption
+      updated_at: '2025-04-20'
+
+    - name: go-file-encrypt
+      description: file-encrypt with golang
+      repo_url: https://github.com/pirakansa/go-file-encrypt
+      badges: golang, cli, encryption
+      updated_at: '2025-04-19'
+
+    - name: pico_LCD_IDE
+      repo_url: https://github.com/pirakansa/pico_LCD_IDE
+      image_url: https://avatars.githubusercontent.com/u/1294177
+      description: >-
+        This project demonstrates how to use the Raspberry Pi Pico microcontroller with the Waveshare Pico-LCD-1.3
+        display module.
+      badges: c, embedded, pico, hid, lcd
+      updated_at: '2025-04-23'
+
+  meta:
+    rowKey: items
+
+- name: 気になるリポジトリ
+  items:
+    - name: go-diskfs
+      description: golang ネイティブのディスクイメージとファイルシステムの操作ライブラリ
+      badges: golang, disk, filesystem
+      repo_url: https://github.com/diskfs/go-diskfs
+      updated_at: '2025-11-28'
+
+    - name: minica
+      description: シンプルなCA
+      badges: ca
+      updated_at: '2025-09-04'
+      repo_url: https://github.com/jsha/minica
+
+    - name: RapidRAW
+      description: Adobe Lightroom®に代わる、最新かつ高性能なソフトウェア
+      badges: raw, photo, editor
+      updated_at: '2025-11-29'
+      repo_url: https://github.com/CyberTimon/RapidRAW
+
+    - name: ggwave
+      description: 離れたデバイス間で音声を使用して少量のデータを通信するライブラリ
+      badges: audio, data, transfer
+      updated_at: '2025-08-26'
+      repo_url: https://github.com/ggerganov/ggwave
+
+    - name: htmx
+      description: 離HTML用の強力なツール
+      badges: html, javascript
+      updated_at: '2025-11-16'
+      image_url: https://raw.githubusercontent.com/bigskysoftware/htmx/master/www/static/img/htmx_logo.1.png
+      repo_url: https://github.com/bigskysoftware/htmx
+
+    - name: OpenCode
+      description: The open source AI coding agent.
+      badges: opencode, cli, ai
+      repo_url: https://github.com/anomalyco/opencode
+      updated_at: '2026-01-09'
+
+  meta:
+    rowKey: items
+
+- name: たまに見たくなるリポジトリ
+  items:
+    - name: MonitorControl
+      description: 外部ディスプレイの明るさと音量を制御し、ネイティブOSDを表示する macOS アプリ
+      badges: macOS, monitor
+      repo_url: https://github.com/MonitorControl/MonitorControl
+      image_url: https://raw.githubusercontent.com/MonitorControl/MonitorControl/main/.github/Icon-cropped.png
+      updated_at: '2025-11-16'
+
+    - name: devcontainers-cli
+      description: vscode devcontainers コマンドラインツール
+      badges: devcontainers, cli, vscode
+      repo_url: https://github.com/devcontainers/cli
+      updated_at: '2026-01-09'
+
+    - name: localstack
+      description: 完全に機能するローカルAWSクラウドスタック
+      updated_at: '2025-11-29'
+      badges: aws, cloud, local
+      repo_url: https://github.com/localstack/localstack
+
+    - name: moonbitlang
+      description: 次世代コーディングプラットフォームI
+      badges: wasm
+      image_url: https://avatars.githubusercontent.com/u/124848646
+      repo_url: https://github.com/moonbitlang
+
+    - name: webrtc/samples
+      description: webrtc/samples
+      updated_at: '2024-04-22'
+      repo_url: https://github.com/webrtc/samples
+      badges: webrtc, sample, demo
+
+    - name: piping-server
+      description: HTTP/HTTPS経由であらゆるデバイス間で無制限に転送
+      repo_url: https://github.com/nwtgck/piping-server
+
+  meta:
+    rowKey: items

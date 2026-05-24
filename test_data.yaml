@@ -1,0 +1,34 @@
+version: 2
+
+repositories:
+  -
+    _comment: test1
+    url: https://example.com/
+    files:
+      -
+        file_name: index.html
+        out_dir: ./tmp.test
+
+  -
+    _comment: test2
+    url: https://example.com/
+    files:
+      -
+        file_name: index.html
+        digest: 454499efc25b742a1eaa37e1b2ec934638b05cef87b036235c087d54ee5dde59
+        rename: index1.html
+        out_dir: ./tmp.test
+      -
+        file_name: index.html
+        digest: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+        rename: index2.html
+        out_dir: ./tmp.test
+
+  -
+    _comment: test3
+    url: https://example.com/
+    files:
+      -
+        file_name: index.html
+        rename: index0.html
+        out_dir: ./tmp.test

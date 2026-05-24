@@ -1,17 +1,27 @@
 - name: バックログ
   rows:
-    - feature: https://github.com/openai/codex
+    - feature: てす
       owner: Alice
       status: READY
       effort: '3'
-    - feature: ''
-      owner: ''
+    - feature:
+        value: ''
+        bgColor: '#fee2e2'
+      owner: ８８
       status: ''
-      effort: '68'
-    - feature: CSVインポート
+      effort: '668'
+    - feature: |-
+        CSVイン
+
+
+        ポート
       owner: Carol
-      status: BACKLOG
-      effort: '662'
+      status:
+        value: BACKLOG
+        color: '#7c3aed'
+      effort:
+        value: '662'
+        color: '#7c3aed'
     - feature: 権限管理
       owner: Dave
       status: DOING
