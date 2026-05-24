@@ -23,7 +23,7 @@
         value: '662'
         color: '#7c3aed'
     - feature: 権限管理
-      owner: Dave
+      owner: Daveさん
       status: DOING
       effort: '53'
     - feature: 操作ガイド作成
