@@ -22,18 +22,18 @@
       badges: vorbere, task, cli
       updated_at: '2026-03-03'
 
+    - name: ghTimeLine
+      description: ghTimeLine is a native desktop app for reading GitHub activity through saved queries.
+      repo_url: https://github.com/pirakansa/ghTimeLine
+      badges: ghtl, rust, app
+      updated_at: '2026-06-02'
+
     - name: shiki
       description: systemd サービスの起動順序を HTTP ベースで連携させる軽量ツール。
       image_url: https://raw.githubusercontent.com/pirakansa/shiki/refs/heads/main/docs/shiki-logo.png
       repo_url: https://github.com/pirakansa/shiki
       badges: shiki, rust, cli, systemd, orchestrator
       updated_at: '2026-01-02'
-
-    - name: repo-contract
-      description: Agent.mdで定めるルールを、コードによる決まりごとにするツール。
-      repo_url: https://github.com/pirakansa/RepoContract
-      badges: RepoContract, rust, cli, ai, ci, contract
-      updated_at: '2025-12-30'
 
     - name: rusteth
       description: >-
