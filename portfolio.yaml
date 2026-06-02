@@ -25,6 +25,7 @@
     - name: ghTimeLine
       description: ghTimeLine is a native desktop app for reading GitHub activity through saved queries.
       repo_url: https://github.com/pirakansa/ghTimeLine
+      image_url: https://raw.githubusercontent.com/pirakansa/ghTimeLine/refs/heads/main/assets/icon.png
       badges: ghtl, rust, app
       updated_at: '2026-06-02'
 
